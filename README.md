@@ -1,9 +1,8 @@
 
 # Unity Movement System with Photon Fusion 2
-![Image]()  
-<p align="center">
-  <img src="Assets/Project/Sprites/Video.gif" alt="Gameplay Screenshot 1" style="width: 70%; margin: 0 1%;">
-</p>
+[![Watch the video](Assets/Project/Sprites/Video.gif)](Assets/Project/Sprites/imageOVR.jpg)
+
+
 ## Overview
 <p align="center">
   <img src="https://github.com/billtruong003/Responsive-WebGL-Template/raw/main/BillTheDevSample/Visualize/profile.webp" alt="Bill The Dev" style="border-radius: 50%; border: 5px solid #ff6600; width: 200px"/>
