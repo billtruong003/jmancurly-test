@@ -40,7 +40,7 @@ This project implements a character movement system with multiplayer support usi
 ## Screenshots
 
 <p align="center">
-  <img src="Assets/Project/Sprites/Img1.png" alt="Gameplay Screenshot 1" style="width: 30%; margin: 0 1%;">
+  <img src="Assets/Project/Sprites/img1.png" alt="Gameplay Screenshot 1" style="width: 30%; margin: 0 1%;">
   <img src="Assets/Project/Sprites/img2.png" alt="Gameplay Screenshot 2" style="width: 30%; margin: 0 1%;">
   <img src="Assets/Project/Sprites/img3.png" alt="Gameplay Screenshot 3" style="width: 30%; margin: 0 1%;">
 </p>
