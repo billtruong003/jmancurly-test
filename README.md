@@ -1,7 +1,9 @@
 
 # Unity Movement System with Photon Fusion 2
-![Image](Assets/Project/Sprites/imageOVR.jpg)
-
+![Image]()  
+<p align="center">
+  <img src="Assets/Project/Sprites/Video.gif" alt="Gameplay Screenshot 1" style="width: 70%; margin: 0 1%;">
+</p>
 ## Overview
 <p align="center">
   <img src="https://github.com/billtruong003/Responsive-WebGL-Template/raw/main/BillTheDevSample/Visualize/profile.webp" alt="Bill The Dev" style="border-radius: 50%; border: 5px solid #ff6600; width: 200px"/>
@@ -70,6 +72,46 @@ This project implements a character movement system with multiplayer support usi
 5. Configure Photon App ID in NetworkRunnerManager
 6. Open and play the main scene to test locally
 
+## For Evaluators / Judges - Quick Start & Testing Guide
+
+Thank you for taking the time to evaluate this project! To quickly test the multiplayer functionality, please follow these steps:
+
+1.  **Download and Extract Release Build:** For the fastest testing experience, please download the latest release build from the [Releases](https://github.com/username/repo/releases) section of this repository (replace with your actual releases link). Extract the downloaded archive to a folder on your computer.
+
+2.  **Code Structure (Optional Review):** If cloning the entire repository is time-consuming, you can review the code structure directly within the GitHub repository. The project is organized for clarity, making it easy to navigate the different components.
+
+3.  **Local Multiplayer Testing (Simulating Players):** To simulate a multiplayer environment for testing purposes, you can open **2 to 4 tabs or windows** of the game application.  This is especially effective if you're using a WebGL build or a standalone build that allows multiple instances to run.
+
+4.  **Testing "Shared Client (P)" Mode:**
+    *   In **one** of your game tabs/windows, select **"Start Shared Client (P)"** from the main menu.
+    *   In the **remaining tabs/windows**, also select **"Start Shared Client (P)"**.
+    *   **Join Order Recommendation:** It's generally recommended to have **one tab initiate "Start Shared Client (P)" first**, and then have the other tabs join afterwards. This can sometimes improve connection stability in local testing.
+
+5.  **Potential Character Visibility Issue (Rare):** In rare cases, especially on certain systems, you might encounter a situation where players joining a "Shared Client (P)" session do not immediately see other characters. If this occurs, simply **close and reopen the affected game tab/window**. This usually resolves the character visibility issue.
+
+By following these steps with multiple game instances on your local machine, you can quickly evaluate the real-time movement synchronization and multiplayer capabilities implemented in this project using Photon Fusion 2's Shared Mode.
+
+Thank again, and hope that I gave you a nice experience! (˵ ͡° ͜ʖ ͡°˵)
+
+---
+
+## Concise Multiplayer Mode Descriptions (for all players)
+
+Here are brief descriptions of each multiplayer mode in the game menu:
+
+*   **Start Single Player (I):** Play the game offline, by yourself. No network connection or other players involved.
+
+*   **Start Shared Client (P):**  *Specialized Mode.*  Potentially for local multiplayer groups playing on one computer to join online games as a single client. Less common for typical online play. See game documentation for specific use cases.
+
+*   **Start Server (S):**  Create a Dedicated Server. For advanced users or server hosting. Runs a game server without a player directly participating on the server machine.
+
+*   **Start Host (H):**  Create a Game Room (Host). The easiest way to host a multiplayer game and invite friends. Your computer acts as both server and player.
+
+*   **Start Client (C):** Join a Game Room (Client). Connect to a game room hosted by someone else (using "Start Host" or "Start Server").
+
+*   **Start Auto Host Or Client (A):** Quick Play. Automatically finds an existing game room to join. If no rooms are available, it creates a new room and you become the Host.
+
+---
 ## More of my products
 
 If you're interested in seeing more of my work, you can check out these projects and resources:
@@ -80,7 +122,7 @@ If you're interested in seeing more of my work, you can check out these projects
 *   **[Responsive WebGL Template for Unity](https://github.com/billtruong003/Responsive-WebGL-Template):** A Unity WebGL template that provides responsive scaling and full-screen support for WebGL builds, ensuring your WebGL games look great on any browser and device.
 *   **[BillTheDev's Portfolio Website](https://billthedev.com):**  (Remember to replace with your actual main portfolio link if you have one, otherwise remove this line) Visit my portfolio website to see a wider range of my game development projects, including demos, videos, and more detailed information about my skills and experience.
 
-This is just a small selection of my work. I am always exploring new technologies and creating exciting projects. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/billtruong003/) (Remember to replace with your LinkedIn profile) or reach out through my portfolio website to discuss potential collaborations or opportunities.
+This is just a small selection of my work. I am always exploring new technologies and creating exciting projects. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/billtruong003/) or reach out through my [portfolio website](www.billthedev.com) to discuss potential collaborations or opportunities.
 ## Implementation Notes
 
 - Character movement uses Photon Fusion 2's KCC for smooth, reliable movement
