@@ -70,6 +70,17 @@ This project implements a character movement system with multiplayer support usi
 5. Configure Photon App ID in NetworkRunnerManager
 6. Open and play the main scene to test locally
 
+## More of my products
+
+If you're interested in seeing more of my work, you can check out these projects and resources:
+
+*   **[Spaceship Modular Project](https://billthedevlab.com/):** Explore a modular spaceship project showcasing advanced 3D modeling and design.
+*   **[3000 Sketchfab Model Scraping Project](https://billthedev.online/):** Discover a project involving the scraping and organization of 3000 models from Sketchfab, demonstrating web scraping and data handling skills.
+*   **[SpellTech-Storage - 3D Model Web Storage (GitHub)](https://github.com/billtruong003/SpellTech-Storage):**  View the source code for SpellTech-Storage, a web-based 3D model storage platform similar to Sketchfab, featuring Augmented Reality (AR) capabilities for web-based object viewing.
+*   **[Responsive WebGL Template for Unity](https://github.com/billtruong003/Responsive-WebGL-Template):** A Unity WebGL template that provides responsive scaling and full-screen support for WebGL builds, ensuring your WebGL games look great on any browser and device.
+*   **[BillTheDev's Portfolio Website](https://billthedev.com):**  (Remember to replace with your actual main portfolio link if you have one, otherwise remove this line) Visit my portfolio website to see a wider range of my game development projects, including demos, videos, and more detailed information about my skills and experience.
+
+This is just a small selection of my work. I am always exploring new technologies and creating exciting projects. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/billtruong003/) (Remember to replace with your LinkedIn profile) or reach out through my portfolio website to discuss potential collaborations or opportunities.
 ## Implementation Notes
 
 - Character movement uses Photon Fusion 2's KCC for smooth, reliable movement
