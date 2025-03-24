@@ -2,7 +2,6 @@
 # Unity Movement System with Photon Fusion 2
 [![Watch the video](Assets/Project/Sprites/Video.gif)](Assets/Project/Sprites/imageOVR.jpg)
 
-
 ## Overview
 <p align="center">
   <img src="https://github.com/billtruong003/Responsive-WebGL-Template/raw/main/BillTheDevSample/Visualize/profile.webp" alt="Bill The Dev" style="border-radius: 50%; border: 5px solid #ff6600; width: 200px"/>
@@ -14,7 +13,8 @@
 </strong>
 </p>
 This project implements a character movement system with multiplayer support using Photon Fusion 2's KCC (Kinematic Character Controller). The implementation follows the requirements for a Unity Developer test, featuring smooth movement, character customization, and multiplayer capabilities.
-![Image](Assets/Project/Sprites/imageOVR.jpg)
+
+![Image](Assets/Project/Sprites/Img1.png)
 ## Features
 
 1. **Character Controller**
@@ -41,7 +41,7 @@ This project implements a character movement system with multiplayer support usi
 ## Screenshots
 
 <p align="center">
-  <img src="Assets/Project/Sprites/Img1.png" alt="Gameplay Screenshot 1" style="width: 30%; margin: 0 1%;">
+  <img src="Assets/Project/Sprites/imageOVR.jpg" alt="Gameplay Screenshot 1" style="width: 30%; margin: 0 1%;">
   <img src="Assets/Project/Sprites/img2.png" alt="Gameplay Screenshot 2" style="width: 30%; margin: 0 1%;">
   <img src="Assets/Project/Sprites/img3.png" alt="Gameplay Screenshot 3" style="width: 30%; margin: 0 1%;">
 </p>
@@ -65,7 +65,7 @@ This project implements a character movement system with multiplayer support usi
 ## Setup Instructions
 
 1. Clone or download the project
-2. Or download the latest build from [Releases](https://github.com/username/repo/releases)
+2. Or download the latest build from [Releases](https://github.com/billtruong003/jmancurly-test/releases/tag/PhotonFusion2)
 3. Open with Unity 2022.3.50f1
 4. Import any required dependencies
 5. Configure Photon App ID in NetworkRunnerManager
@@ -75,7 +75,7 @@ This project implements a character movement system with multiplayer support usi
 
 Thank you for taking the time to evaluate this project! To quickly test the multiplayer functionality, please follow these steps:
 
-1.  **Download and Extract Release Build:** For the fastest testing experience, please download the latest release build from the [Releases](https://github.com/username/repo/releases) section of this repository (replace with your actual releases link). Extract the downloaded archive to a folder on your computer.
+1.  **Download and Extract Release Build:** For the fastest testing experience, please download the latest release build from the [Releases](https://github.com/billtruong003/jmancurly-test/releases/tag/PhotonFusion2) section of this repository (replace with your actual releases link). Extract the downloaded archive to a folder on your computer.
 
 2.  **Code Structure (Optional Review):** If cloning the entire repository is time-consuming, you can review the code structure directly within the GitHub repository. The project is organized for clarity, making it easy to navigate the different components.
 
