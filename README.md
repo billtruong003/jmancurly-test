@@ -75,7 +75,7 @@ This project implements a character movement system with multiplayer support usi
 
 Thank you for taking the time to evaluate this project! To quickly test the multiplayer functionality, please follow these steps:
 
-1.  **Download and Extract Release Build:** For the fastest testing experience, please download the latest release build from the [Releases](https://github.com/billtruong003/jmancurly-test/releases/tag/PhotonFusion2) section of this repository (replace with your actual releases link). Extract the downloaded archive to a folder on your computer.
+1.  **Download and Extract Release Build:** For the fastest testing experience, please download the latest release build from the [Releases](https://github.com/billtruong003/jmancurly-test/releases/tag/PhotonFusion2) section of this repository. Extract the downloaded archive to a folder on your computer.
 
 2.  **Code Structure (Optional Review):** If cloning the entire repository is time-consuming, you can review the code structure directly within the GitHub repository. The project is organized for clarity, making it easy to navigate the different components.
 
