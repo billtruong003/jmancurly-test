@@ -82,7 +82,7 @@ This setup allows you to evaluate real-time movement synchronization and multipl
 
 ---
 
-## Concise Multiplayer Mode Descriptions
+## Multiplayer Mode Descriptions
 - **Start Single Player (I)**: Offline single-player mode. No network or other players.
 - **Start Shared Client (P)**: Development mode. Connects to a Shared Mode session for testing multiplayer features.
 - **Start Server (S)**: Dedicated server mode. Runs independently for large-scale games.
