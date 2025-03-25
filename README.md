@@ -98,17 +98,20 @@ Thank again, and hope that I gave you a nice experience! (˵ ͡° ͜ʖ ͡°˵)
 
 Here are brief descriptions of each multiplayer mode in the game menu:
 
-*   **Start Single Player (I):** Play the game offline, by yourself. No network connection or other players involved.
+**Start Single Player (I): Single Player (Offline).**  Offline, single-player game mode. No network connection, no other players.
 
-*   **Start Shared Client (P):**  *Specialized Mode.*  Potentially for local multiplayer groups playing on one computer to join online games as a single client. Less common for typical online play. See game documentation for specific use cases.
+**Start Shared Client (P): Shared Client (Shared Mode Client).**  *Special mode for development and testing.* Connects to a running **Shared Mode** game session (can be on another machine or local for testing). **Does not create a separate server.** Multiple "Shared Clients" can connect to **the same Shared Mode session.** **For developers, not for typical players.** Used for:
+    *   Quickly testing multiplayer features.
+    *   Network debugging.
+    *   Running Fusion demo examples.
 
-*   **Start Server (S):**  Create a Dedicated Server. For advanced users or server hosting. Runs a game server without a player directly participating on the server machine.
+**Start Server (S): Dedicated Server (Dedicated Server).**  Creates a **separate, dedicated game server**.  Server runs independently, no player directly on the server. **For large-scale online games, requiring stable, 24/7 servers.** Other players will connect to this server.
 
-*   **Start Host (H):**  Create a Game Room (Host). The easiest way to host a multiplayer game and invite friends. Your computer acts as both server and player.
+**Start Host (H): Host & Play (Host Mode).**  **Most common way to create multiplayer games for typical players.** Your computer acts as **both game server and player.** You create a game room, and others connect to your computer to play together. **Easy to set up, suitable for playing with friends, medium-scale games.**
 
-*   **Start Client (C):** Join a Game Room (Client). Connect to a game room hosted by someone else (using "Start Host" or "Start Server").
+**Start Client (C): Join Player (Client Mode).**  **Joins a game created by someone else (Host or Dedicated Server).**  You connect to a running game server. **For players who want to join online games hosted by others, without server management.**
 
-*   **Start Auto Host Or Client (A):** Quick Play. Automatically finds an existing game room to join. If no rooms are available, it creates a new room and you become the Host.
+**Start Auto Host Or Client (A): Auto (Auto Mode).**  **Fusion automatically chooses whether you are Host or Client.**  Searches for an existing game room to join (Client). If none found, automatically creates a new room and you are the Host. **Fastest way to get into online games, no need to choose mode.**
 
 ---
 ## More of my products
